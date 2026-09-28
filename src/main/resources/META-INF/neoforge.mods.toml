@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="uraniumsnack"
+version="1.0.0"
+displayName="Uranium Snack"
+authors="You"
+description='''Makes Mekanism Raw Uranium edible (same food value as raw steak) and Uranium Ingots edible (2x cooked steak). Both can be eaten even when your hunger bar is full.'''
+
+[[dependencies.uraniumsnack]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.uraniumsnack]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.uraniumsnack]]
+modId="mekanism"
+type="required"
+versionRange="[10,)"
+ordering="AFTER"
+side="BOTH"
